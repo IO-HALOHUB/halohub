@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+
+{% include head.html %}
+
+<body class="bg-dark h-100 w-100">
+    {% include navbar.html %}
+    {% include banner.html show=page.show_banner %}
+
+    {% unless page.hide_content %}
+    <div class="page-content text-white">
+        {{ content }}
+    </div>
+    {% endunless %}
+
+    {% include footer.html %}
+</body>
+
+</html>

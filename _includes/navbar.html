@@ -1,0 +1,19 @@
+<nav class="navbar navbar-expand-lg bg-black" style="position: sticky; top: 0; z-index: 99;">
+    <div class="container-fluid">
+        <a class="navbar-brand text-white" href="{{ site.url }}">{{ site.title }}</a>
+        <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav align-items-center pt-3 pt-md-0">
+                {% for section in site.data.toc %}
+                <li class="nav-item px-md-3 px-0">
+                    <a class="nav-link text-white" href="{{ site.url }}/{{ section.url }}">{{ section.title }}</a>
+                </li>
+                <div class="nav-separator"></div>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+</nav>

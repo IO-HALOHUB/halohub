@@ -1,0 +1,138 @@
+---
+---
+html, body {
+    --bs-link-color: #f36229;
+    --bs-link-hover-color: #8f1209;
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    user-select: none;
+    /* background: url('/assets/img/page-background.jpg'); */
+    background-color: #ffffff !important;
+    background-attachment: fixed;
+    /* background-blend-mode: luminosity; */
+}
+
+a {
+    text-decoration: none !important;
+}
+
+footer {
+    margin-top: auto;
+    position: relative;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-icon:hover {
+    color: white;
+    opacity: 0.9;
+    padding: 2px;
+}
+
+.social-icon-img:hover {
+    filter: sepia(1000) saturate(100) hue-rotate(60deg);
+}
+
+.social-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    width: 34px;
+    height: 28px;
+    padding: 4px;
+    border-style: solid;
+    border-width: 1px;
+    border-right-style: none;
+    transition: 0.1s padding;
+}
+
+.social-icon:first-child {
+    border-top-left-radius: 25%;
+    border-bottom-left-radius: 25%;
+}
+
+.social-icon:last-child {
+    border-top-right-radius: 25%;
+    border-bottom-right-radius: 25%;
+    border-right-style: solid;
+}
+
+.logo {
+    height: 50vh;
+}
+
+.logo-text {
+    width: 80vh;
+}
+
+.banner {
+    background-attachment: fixed;
+    background-size: contain;
+    height: 100%;
+    /* background-image: url(/assets/img/banner-background.webp); */
+    background-color: #ffffff !important;
+}
+
+.page-content {
+    padding: 3rem !important;
+    user-select: text;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .logo {
+        height: initial;
+        width: 65vw;
+    }
+
+    .logo-text {
+        width: 95vw;
+    }
+
+    .page-content {
+        padding: 1.5rem !important;
+    }
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 1.2rem !important;
+}
+
+.navbar-nav {
+    flex-direction: row !important;
+    justify-content: space-evenly !important;
+}
+
+div.nav-separator {
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+    height: 24px;
+    opacity: 0.2;
+}
+
+div.nav-separator:last-child {
+    display: none !important;
+}
+
+.nav-link:hover, .navbar-brand:hover {
+    color: var(--bs-link-color) !important;
+}
+
+.hover {
+    transition: filter 0.2s;
+}
+
+.hover:hover {
+    filter: brightness(1.2);
+}
