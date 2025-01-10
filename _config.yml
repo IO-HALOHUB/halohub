@@ -23,7 +23,7 @@ email: hello@halohub.io
 description: >- # this means to ignore newlines until "baseurl:"
   HALOHUB., LTD is an indie game & app development team based in Vietnames formed in 2024.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://halohub.asia" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://halohub.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  halohub.io
 github_repo:  halohub.io
 
