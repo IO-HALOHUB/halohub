@@ -1,6 +1,3 @@
-google.com, pub-4459308832613659, DIRECT, f08c47fec0942fa0
-google.com, pub-9231631716888498, DIRECT, f08c47fec0942fa0
-google.com, pub-8224034787374501, DIRECT, f08c47fec0942fa0
 google.com, pub-8290376859462473, DIRECT, f08c47fec0942fa0
 facebook.com, 627005427470737, RESELLER, c3e20eee3f780d68
 applovin.com, 8b3aea5553cd14f6b55cc3bdaa96b7dd, DIRECT
