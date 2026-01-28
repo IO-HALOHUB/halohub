@@ -34,7 +34,7 @@
   icon: facebook
   show_on_footer: false
   url: "https://www.facebook.com/halohub.io"
-- name: contact@halohub.io
+- name: contact@halohub.vn
   icon: email
   show_on_footer: false
-  url: "mailto:hello@halohub.io"
+  url: "mailto:hello@halohub.vn"
