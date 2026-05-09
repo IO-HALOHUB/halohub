@@ -136,3 +136,94 @@ div.nav-separator:last-child {
 .hover:hover {
     filter: brightness(1.2);
 }
+
+/* ------- /contacts page ------- */
+
+.contact-hero {
+    padding-top: 1rem;
+}
+
+.contact-quote {
+    max-width: 640px;
+    padding: 1rem 1.25rem;
+    border-left: 3px solid var(--bs-link-color);
+    background-color: rgba(255, 255, 255, 0.04);
+    color: #e9e9ea;
+    font-style: italic;
+    text-align: left;
+}
+
+.contact-quote .blockquote-footer {
+    color: #b9b9bb;
+    font-style: normal;
+}
+
+.contact-card {
+    background-color: rgba(255, 255, 255, 0.04);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    border-radius: 12px;
+    color: #ffffff !important;
+    transition: transform 0.2s ease, border-color 0.2s ease, background-color 0.2s ease;
+}
+
+.contact-card:hover {
+    transform: translateY(-2px);
+    border-color: var(--bs-link-color);
+    background-color: rgba(243, 98, 41, 0.08);
+}
+
+.contact-card-icon {
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    background-color: rgba(243, 98, 41, 0.15);
+    color: var(--bs-link-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.75rem;
+    line-height: 1;
+}
+
+.contact-card-icon img {
+    width: 28px;
+    height: 28px;
+    filter: invert(54%) sepia(83%) saturate(2114%) hue-rotate(346deg) brightness(98%) contrast(92%);
+}
+
+.contact-card-label {
+    color: #b9b9bb;
+    letter-spacing: 0.08em;
+}
+
+.contact-card-value {
+    color: #ffffff;
+    word-break: break-word;
+}
+
+.contact-publisher-note {
+    color: #c9c9ca;
+    font-size: 0.95rem;
+    max-width: 720px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contact-social-link {
+    color: #ffffff !important;
+    background-color: rgba(255, 255, 255, 0.06);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 999px;
+    transition: background-color 0.2s ease, border-color 0.2s ease;
+}
+
+.contact-social-link:hover {
+    background-color: rgba(243, 98, 41, 0.15);
+    border-color: var(--bs-link-color);
+}
+
+.contact-social-icon {
+    width: 18px;
+    height: 18px;
+    filter: invert(1);
+}
