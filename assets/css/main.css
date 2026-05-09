@@ -185,10 +185,10 @@ div.nav-separator:last-child {
     line-height: 1;
 }
 
-.contact-card-icon img {
+.contact-card-icon-svg {
     width: 28px;
     height: 28px;
-    filter: invert(54%) sepia(83%) saturate(2114%) hue-rotate(346deg) brightness(98%) contrast(92%);
+    display: block;
 }
 
 .contact-card-label {
