@@ -42,16 +42,3 @@ permalink: contacts
         <strong>Google Play</strong>, please use the channels above.
     </p>
 </section>
-
-<section class="contact-social mt-5">
-    <h2 class="h5 text-center text-uppercase mb-4">Follow & Reach Us</h2>
-    <div class="contact-social-grid d-flex flex-wrap justify-content-center gap-3">
-        {% for contact in site.data.contact %}
-        <a class="contact-social-link d-inline-flex align-items-center px-3 py-2"
-           href="{{ contact.url }}" target="_blank" rel="noopener" aria-label="{{ contact.name }}">
-            <img class="contact-social-icon me-2" src="{{ site.baseurl }}/assets/img/icons/{{ contact.icon }}.svg" alt="" />
-            <span>{{ contact.name }}</span>
-        </a>
-        {% endfor %}
-    </div>
-</section>
