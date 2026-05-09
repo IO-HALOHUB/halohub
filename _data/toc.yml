@@ -2,3 +2,5 @@
 #   url: "games"
 - title: "ABOUT"
   url: "about"
+- title: "CONTACT"
+  url: "contacts"
